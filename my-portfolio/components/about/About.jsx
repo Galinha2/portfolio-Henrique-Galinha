@@ -1,6 +1,7 @@
 import contentEn from "../../assets/contentEn.json";
 import contentPt from "../../assets/contentPt.json";
 import { useLanguage } from "../LanguageContext";
+import Images from "./Images";
 
 function about() {
   const { language } = useLanguage();
@@ -13,11 +14,9 @@ function about() {
     >
       <h4 className="">{headerContent.title}</h4>
       <div className="flex flex-row w-full h-full gap-10 items-center justify-center mt-[-80px]">
-        <img
-          className="w-auto max-w-150"
-          src="/aboutpicture.png"
-          alt="About Picture"
-        />
+        <div className="flex w-fit">
+            <Images />
+        </div>
         <p
           className="font-[900] text-[1.3em] text-justify w-auto max-w-[700px] text-white"
           style={{ whiteSpace: "pre-line" }}

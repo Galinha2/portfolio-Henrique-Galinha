@@ -17,7 +17,7 @@ function LanguageSelector() {
       className="cursor-pointer absolute top-4 right-15 text-white items-center text-center shadow-md"
       onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex text-white m-center bg-[var(--text-black)] w-11 px-2 pr-1 rounded-[12px] py-0 absolute z-10 gap-0.5 items-center">
+      <div className="flex text-white m-center bg-[var(--text-black)] w-11 px-2 pr-1 rounded-[12px] py-0 absolute z-10 gap-0.5 items-center hover:py-1 hover:mt-[-4] hover:bg-[var(--yellow)]">
         {language}
         {!isOpen ? (<IoIosArrowDown />) : (<IoIosArrowUp />)}
       </div>

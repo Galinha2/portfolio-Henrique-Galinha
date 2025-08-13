@@ -11,7 +11,7 @@ function Featured() {
     <div className="bg-[var(--text-black)] text-center p-13 pb-20">
         <h4 className="text-white">{headerContent.title}</h4>
         
-        <div className="flex gap-10 items-center justify-center flex-wrap mt-5">
+        <div className="flex gap-10 items-center justify-center h-60 flex-wrap mt-5">
             <ProjectBox />
         </div>
     </div>

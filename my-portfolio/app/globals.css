@@ -11,10 +11,11 @@ body {
   margin: 0px;
   padding: 0px;
   color: #676767;
+  background-color: white;
 }
 
 :root {
-  --orange-hover: #ff1a1a;
+  --orange-hover: #;
   --yellow: #f9c784;
   --blue: #4f79ad;
   --orange-user-icon: #ff2e2e40;
@@ -32,6 +33,8 @@ body {
   --shadow-header: 3px 0px 4px #00000021;
   --shadows-third-person: -5px -5px 10px white, 2px 2px 4px #4b75a62c,
     0px 0px 20px #4b75a644;
+  --shadows-third-person-light: -5px -5px 10px white, 2px -2px 4px #f9c784,
+    -2px 2px 4px #2eceff;
   --shadows-third-person-dark: 2px 2px 5px #4b75a649, 0px 0px 20px #4b75a600;
 }
 
@@ -62,4 +65,41 @@ h4 {
   font-size: 2.5em;
   font-weight: 900;
   color: white;
+}
+
+.animated-border {
+  position: relative;
+  border-radius: 50%; /* para círculos */
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 20px;
+  padding: 2px; /* espessura da border */
+  background: linear-gradient(
+    270deg,
+    white,
+    #ffffff00,
+    white,
+    #ffffff00
+  );
+  background-size: 400% 400%;
+  animation: animate-border 2s linear infinite;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+@keyframes animate-border {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
