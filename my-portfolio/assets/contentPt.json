@@ -1,0 +1,62 @@
+{
+  "header": {
+    "nav": ["Início", "Projetos", "Sobre", "Contacto"]
+  },
+  "hero": {
+    "designer": "Designer UI/UX que cria experiências digitais bonitas, funcionais e envolventes.",
+    "developer": "Programador Frontend & Fullstack que desenvolve interfaces elegantes e intuitivas, e backends potentes e escaláveis.",
+    "greeting": "Olá, o meu nome é",
+    "name": "Henrique Galinha"
+  },
+  "stacks": {
+    "title": "As Minhas Tecnologias"
+  },
+  "featuredWorks": {
+    "title": "Trabalhos em Destaque",
+    "projects": [
+      {
+        "name": "Frotgest",
+        "description": "Aplicação de gestão de frota e equipamentos"
+      },
+      {
+        "name": "Jogo Simon",
+        "description": "Repete sequências de cores para testar a memória"
+      },
+      {
+        "name": "Designs de Logótipos",
+        "description": "Designs para empresas de logótipos"
+      }
+    ]
+  },
+  "projectsSection": {
+    "title": "Os Meus Projetos",
+    "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver abaixo alguns dos meus projetos favoritos.",
+    "projects": [
+      { "name": "Frotgest", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Calculadora", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Frotgest Administração", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Designs de Logótipos", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Designs de Websites", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Amazon APT", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" },
+      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" }
+    ]
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "Olá, o meu nome é Henrique Galinha, nascido em 1999. Sou ex-militar das forças especiais paraquedistas, com 5 anos de serviço, onde também trabalhei como dobrador e instrutor de paraquedas em vários cursos.\n\nDestaco-me em ambientes de trabalho em equipa, mantenho a calma e o foco sob pressão, e encaro os desafios como oportunidades de crescimento. A minha experiência militar deu-me uma forte disciplina, adaptabilidade e capacidade de resolução de problemas, qualidades que aplico agora no meu trabalho em tecnologia e programação.\n\nTenho também uma paixão pelo design e pela sua capacidade de inspirar e criar ligação com as pessoas, combinando criatividade com precisão técnica para criar experiências digitais com significado."
+  },
+  "contacts": {
+    "title": "Contactos",
+    "subtitle": "Sente-te à vontade para entrar em contacto a qualquer momento, e terei todo o gosto em dedicar o tempo necessário para atender às tuas necessidades :)",
+    "info": {
+      "name": "Henrique Galinha",
+      "email": "hgalinha1999@hotmail.com",
+      "cellphone": "+351 963 910 417",
+      "linkedin": "henrique-galinha",
+      "github": "Galinha2"
+    }
+  },
+  "footer": "© 2025 Henrique Galinha. Todos os direitos reservados."
+}

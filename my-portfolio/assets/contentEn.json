@@ -1,0 +1,64 @@
+{
+  "header": {
+    "nav": ["Home", "Projects", "About", "Contact"]
+  },
+  "hero": {
+    "designerTitle": "Designer",
+    "designer": "UI/UX Designer creating beautiful, functional, and engaging digital experiences.",
+    "developerTitle": "</ Developer >",
+    "developer": "Frontend & Fullstack Developer building elegant, intuitive interfaces and powerful, scalable backends.",
+    "greeting": "Hello, my name is",
+    "name": "Henrique Galinha"
+  },
+  "stacks": {
+    "title": "My Stacks"
+  },
+  "featuredWorks": {
+    "title": "Featured Works",
+    "projects": [
+      {
+        "name": "Frotgest",
+        "description": "Fleet and equipment management app"
+      },
+      {
+        "name": "Simon Game",
+        "description": "Repeat color sequences to test memory"
+      },
+      {
+        "name": "Logo Designs",
+        "description": "Designs for logo companies"
+      }
+    ]
+  },
+  "projectsSection": {
+    "title": "My Projects",
+    "subtitle": "I love to create things, and I'm always working on something new! You can view some of my favorite projects below.",
+    "projects": [
+      { "name": "Frotgest", "description": "Fleet and equipment management app" },
+      { "name": "Simon Game", "description": "Fleet and equipment management app" },
+      { "name": "Calculator", "description": "Fleet and equipment management app" },
+      { "name": "Frotgest Administration", "description": "Fleet and equipment management app" },
+      { "name": "Logo Designs", "description": "Fleet and equipment management app" },
+      { "name": "Website Designs", "description": "Fleet and equipment management app" },
+      { "name": "Amazon APT", "description": "Fleet and equipment management app" },
+      { "name": "Simon Game", "description": "Fleet and equipment management app" },
+      { "name": "Simon Game", "description": "Fleet and equipment management app" }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "description": "Hi, my name is Henrique Galinha, born in 1999. I am a former special forces paratrooper with 5 years of service, where I also worked as a parachute packer and instructor for multiple courses.\n\nI thrive in team environments, stay calm and focused under pressure, and embrace challenges as opportunities to grow. My military background has given me strong discipline, adaptability, and problem-solving skills, qualities I now apply to my work in technology and programming.\n\nI also have a passion for design and its ability to inspire and connect with people, blending creativity with technical precision to create meaningful digital experiences."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Feel free to reach out anytime, and I’ll be happy to take the time to address your needs :)",
+    "info": {
+      "name": "Henrique Galinha",
+      "email": "hgalinha1999@hotmail.com",
+      "cellphone": "+351 963 910 417",
+      "linkedin": "henrique-galinha",
+      "github": "Galinha2"
+    }
+  },
+  "footer": "© 2025 Henrique Galinha. All rights reserved."
+}
