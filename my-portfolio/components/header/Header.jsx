@@ -6,14 +6,25 @@ import LanguageSelector from "./LanguageSelector";
 
 function Header() {
   const { language } = useLanguage();
-  const headerContent = language === "En" ? contentEn.header.nav : contentPt.header.nav;
+  const headerContent =
+    language === "En" ? contentEn.header.nav : contentPt.header.nav;
 
   return (
-    <header className="shadow-new fixed top-5 inset-x-0 mx-auto flex gap-4 border-black p-4 px-8 text-[0.9em] rounded-full w-85">
-      {headerContent.map((item) => (
-        <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>
-      ))}
-      <LanguageSelector />
+    <header className="shadow-new fixed top-5 inset-x-0 mx-auto flex gap-4 border-black p-3 px-5 text-[0.9em] rounded-full w-82">
+      <div className="flex gap-0">
+        {headerContent.map((item) => (
+          <a
+            className="hover:bg-[var(--yellow)] rounded-full px-2 py-1"
+            key={item}
+            href={`#${contentEn.header.nav[
+              headerContent.indexOf(item)
+            ].toLowerCase()}`}
+          >
+            {item}
+          </a>
+        ))}
+        <LanguageSelector />
+      </div>
     </header>
   );
 }

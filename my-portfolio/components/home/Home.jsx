@@ -9,21 +9,18 @@ function Home() {
   const headerContent = language === "En" ? contentEn.hero : contentPt.hero;
 
   return (
-    <div className="p-5 w-screen">
-      <div className="flex w-screen items-center max-w-300 m-auto">
-        <QuickInfo title={headerContent.designerTitle} text={headerContent.designer} />
-
-        <div className="m-auto">
-          <UserPhoto />
-          <h3 className="text-center text-[2em] text-[var(--text-black)]">
-            {headerContent.greeting}
-          </h3>
-          <h2 className="text-center text-[2em] font-black text-[var(--yellow)]">
-            {headerContent.name}
-          </h2>
-        </div>
-
-          <QuickInfo title={headerContent.developerTitle} text={headerContent.developer} />
+    <div className="px-5 w-screen">
+      <div id="home" className="flex m-auto w-screen items-center justify-between h-screen max-w-300">
+        <QuickInfo
+          title={headerContent.designerTitle}
+          text={headerContent.designer}
+        />
+        <UserPhoto />
+        <QuickInfo
+          title={headerContent.developerTitle}
+          text={headerContent.developer}
+          align={"right"}
+        />
       </div>
     </div>
   );

@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+        wordSpacing: {
+        '10': '10px',
+        '20': '20px',
+      },
+    },
   },
   plugins: [],
 }

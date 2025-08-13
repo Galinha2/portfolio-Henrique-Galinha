@@ -3,8 +3,10 @@
     "nav": ["Início", "Projetos", "Sobre", "Contacto"]
   },
   "hero": {
+    "designerTitle": "Designer",
     "designer": "Designer UI/UX que cria experiências digitais bonitas, funcionais e envolventes.",
-    "developer": "Programador Frontend & Fullstack que desenvolve interfaces elegantes e intuitivas, e backends potentes e escaláveis.",
+    "developerTitle": "</ Programador >",
+    "developer": "Programador Frontend & Fullstack que desenvolve interfaces elegantes, intuitivas e backends escaláveis.",
     "greeting": "Olá, o meu nome é",
     "name": "Henrique Galinha"
   },
@@ -45,7 +47,7 @@
   },
   "about": {
     "title": "Sobre",
-    "description": "Olá, o meu nome é Henrique Galinha, nascido em 1999. Sou ex-militar das forças especiais paraquedistas, com 5 anos de serviço, onde também trabalhei como dobrador e instrutor de paraquedas em vários cursos.\n\nDestaco-me em ambientes de trabalho em equipa, mantenho a calma e o foco sob pressão, e encaro os desafios como oportunidades de crescimento. A minha experiência militar deu-me uma forte disciplina, adaptabilidade e capacidade de resolução de problemas, qualidades que aplico agora no meu trabalho em tecnologia e programação.\n\nTenho também uma paixão pelo design e pela sua capacidade de inspirar e criar ligação com as pessoas, combinando criatividade com precisão técnica para criar experiências digitais com significado."
+    "description": "Olá, o meu nome é Henrique Galinha, nasci em 1999. Sou ex-militar das Tropas Especiais paraquedistas, com 5 anos de serviço, onde também trabalhei como dobrador e instrutor de paraquedas em vários cursos.\n\nDestaco-me em ambientes de trabalho em equipa, mantenho a calma e o foco sob pressão, e encaro os desafios como oportunidades de crescimento. A minha experiência militar deu-me uma forte disciplina, adaptabilidade e capacidade de resolução de problemas, qualidades que aplico agora no meu trabalho em tecnologia e programação.\n\nTenho também uma paixão pelo design e pela sua capacidade de inspirar e criar ligação com as pessoas, combinando criatividade com precisão técnica para criar experiências digitais com significado."
   },
   "contacts": {
     "title": "Contactos",
