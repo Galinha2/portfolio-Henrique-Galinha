@@ -33,52 +33,60 @@
   "projectsSection": {
     "title": "My Projects",
     "subtitle": "I love to create things, and I'm always working on something new! You can view some of my favorite projects below.",
+    "stackTitle": "Used Stacks:",
     "projects": [
       {
         "name": "Frotgest",
         "description": "Website presenting the Frotgest product, showcasing its features and benefits.",
         "link": "https://frotgest.com/",
         "target": "_blank",
-        "image": "/frotgestLogo.png"
+        "image": "/frotgestLogo.png",
+        "stacks": ["/image 1.png", "/image 5.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 14.png"]
       },
       {
         "name": "Simon Game",
         "description": "Memory challenge game where the player repeats color sequences.",
         "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
         "target": "_blank",
-        "image": "/simonIcon.png"
+        "image": "/simonIcon.png",
+        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
       },
       {
         "name": "Calculator",
         "description": "Calculator with an elegant, minimalistic, and modern design.",
         "link": "#",
         "target": "_blank",
-        "image": "/calculator.png"
+        "image": "/calculator.png",
+        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
       },
       {
         "name": "Frotgest Administration",
         "description": "Admin panel for Frotgest app to manage the fleet and monitor each equipment's location.",
         "link": "#",
         "target": "_blank",
-        "image": "/LOGO.png"
+        "image": "/LOGO.png",
+        "stacks": ["/image 1.png", "/image 5.png", "/image 6.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 12.png", "/image 13.png", "/image 14.png"]
       },
       {
         "name": "Logo Designs",
         "description": "Collection of creative logo designs I developed.",
         "link": "#",
-        "image": "/logoDesign.png"
+        "image": "/logoDesign.png",
+        "stacks": ["/figma.png"]
       },
       {
         "name": "Website Designs",
         "description": "Website design projects created in Figma, focused on aesthetics and usability.",
         "link": "#",
-        "image": "/figma.png"
+        "image": "/figma.png",
+        "stacks": ["/figma.png"]
       },
       {
         "name": "Amazon APT",
         "description": "Python tool that tracks Amazon product prices and sends an email whenever the price updates.",
         "link": "#",
-        "image": "/image.png"
+        "image": "/image.png",
+        "stacks": ["/image 10.png"]
       }
     ]
   },

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Inter Tight", sans-serif;
   transition: all 0.3s ease;
+
 }
 
 html,
@@ -79,7 +80,7 @@ h5 {
 
 .animated-border {
   position: relative;
-  border-radius: 50%; /* para círculos */
+  border-radius: 25px; /* para círculos */
 }
 
 .animated-border::before {
@@ -89,7 +90,7 @@ h5 {
   left: -3px;
   right: -3px;
   bottom: -3px;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 2px; /* espessura da border */
   background: linear-gradient(
     270deg,

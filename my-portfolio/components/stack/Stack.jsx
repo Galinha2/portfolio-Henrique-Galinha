@@ -24,6 +24,7 @@ function Stack() {
     { name: 11, description: "MySQL" },
     { name: 12, description: "PostgreSQL" },
     { name: 13, description: "Tailwind CSS" },
+    { name: 14, description: "React Query" },
   ];
 
   return (

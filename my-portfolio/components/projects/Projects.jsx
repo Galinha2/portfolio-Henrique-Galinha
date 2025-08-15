@@ -11,6 +11,10 @@ function Projects() {
     language === "En"
       ? contentEn.projectsSection.projects
       : contentPt.projectsSection.projects;
+  const titleContent =
+    language === "En"
+      ? contentEn.projectsSection
+      : contentPt.projectsSection;
 
   return (
     <div
@@ -21,7 +25,7 @@ function Projects() {
         <h1>{headerContent.title}</h1>
         <h5 className="text-[var(--text-black)]">{headerContent.subtitle}</h5>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 w-full items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 w-full items-start">
         {projectsContent.map((project, index) => (
             <ProjectsBox
                 key={index}
@@ -30,6 +34,8 @@ function Projects() {
                 link={project.link}
                 image={project.image}
                 target={project.target}
+                stacks={project.stacks}
+                title={titleContent.stackTitle}
             />
         ))}
       </div>

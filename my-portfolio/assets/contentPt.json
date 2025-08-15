@@ -33,52 +33,60 @@
   "projectsSection": {
     "title": "Os Meus Projetos",
     "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver abaixo alguns dos meus projetos favoritos.",
+    "stackTitle": "Tecnologias Usadas:",
     "projects": [
       {
         "name": "Frotgest",
         "description": "Website apresentando o produto Frotgest, destacando as suas funcionalidades e benefícios.",
         "link": "https://frotgest.com/",
         "target": "_blank",
-        "image": "/frotgestLogo.png"
-      },
+        "image": "/frotgestLogo.png",
+        "stacks": ["/image 1.png", "/image 5.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 14.png"]
+              },
       {
         "name": "Simon Game",
         "description": "Jogo de desafio de memória onde o jogador repete sequências de cores.",
         "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
         "target": "_blank",
-        "image": "/simonIcon.png"
+        "image": "/simonIcon.png",
+        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
       },
       {
         "name": "Calculadora",
         "description": "Calculadora com um design elegante, minimalista e moderno.",
         "link": "#",
         "target": "_blank",
-        "image": "/calculator.png"
+        "image": "/calculator.png",
+        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
       },
       {
         "name": "Administração Frotgest",
         "description": "Painel de administração da aplicação Frotgest para gerir a frota e monitorizar a localização de cada equipamento.",
         "link": "#",
         "target": "_blank",
-        "image": "/LOGO.png"
+        "image": "/LOGO.png",
+        "stacks": ["/image 1.png", "/image 5.png", "/image 6.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 12.png", "/image 13.png", "/image 14.png"]
       },
       {
         "name": "Designs de Logotipo",
         "description": "Coleção de designs criativos de logotipos que desenvolvi.",
         "link": "#",
-        "image": "/logoDesign.png"
+        "image": "/logoDesign.png",
+        "stacks": ["/figma.png"]
       },
       {
         "name": "Designs de Websites",
         "description": "Projetos de design de websites criados no Figma, focados na estética e usabilidade.",
         "link": "#",
-        "image": "/figma.png"
+        "image": "/figma.png",
+        "stacks": ["/figma.png"]
       },
       {
         "name": "Amazon APT",
         "description": "Ferramenta em Python que acompanha os preços de produtos na Amazon e envia um email sempre que o preço é atualizado.",
         "link": "#",
-        "image": "/image.png"
+        "image": "/image.png",
+        "stacks": ["/image 10.png"]
       }
     ]
   },
