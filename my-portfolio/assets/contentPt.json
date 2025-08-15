@@ -51,8 +51,13 @@
   },
   "contacts": {
     "title": "Contactos",
-    "subtitle": "Sente-te à vontade para entrar em contacto a qualquer momento, e terei todo o gosto em dedicar o tempo necessário para atender às tuas necessidades :)",
+    "subtitle": "Sente-te à vontade para entrar em contacto comigo a qualquer momento, terei todo o gosto em dedicar o tempo necessário para atender às tuas necessidades :)",
     "info": {
+      "title": "Nome",
+      "title1": "Email",
+      "title2": "Telemovel",
+      "title3": "LinkedIn",
+      "title4": "GitHub",
       "name": "Henrique Galinha",
       "email": "hgalinha1999@hotmail.com",
       "cellphone": "+351 963 910 417",
@@ -60,5 +65,5 @@
       "github": "Galinha2"
     }
   },
-  "footer": "© 2025 Henrique Galinha. Todos os direitos reservados."
+  "footer": "Henrique Galinha. Todos os direitos reservados."
 }

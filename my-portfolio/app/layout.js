@@ -2,6 +2,7 @@ import { Inter_Tight } from 'next/font/google';
 import "./globals.css";
 import Header from "../components/header/Header";
 import { LanguageProvider } from "@/components/LanguageContext";
+import Footer from "../components/footer/Footer";
 
 const interTight = Inter_Tight({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <div className="w-full min-h-screen bg-white">
             <Header />
             {children}
+            <Footer />
           </div>
         </LanguageProvider>
       </body>

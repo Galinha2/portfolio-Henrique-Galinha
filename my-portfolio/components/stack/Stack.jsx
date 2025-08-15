@@ -27,7 +27,7 @@ function Stack() {
   ];
 
   return (
-    <div className="m-auto text-center bg-[var(--gray)] p-10 pt-6">
+    <div className="m-auto text-center bg-[var(--gray)] p-10 pt-6 border-t-1 border-[var(--horizontal-line)]">
       <h1 className="pb-4">{headerContent.title}</h1>
 
       <div className="flex flex-wrap w-full max-w-[1000px] mx-auto items-center justify-center">

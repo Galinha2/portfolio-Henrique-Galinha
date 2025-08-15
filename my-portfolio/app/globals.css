@@ -67,6 +67,16 @@ h4 {
   color: white;
 }
 
+h3 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h5 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
 .animated-border {
   position: relative;
   border-radius: 50%; /* para círculos */

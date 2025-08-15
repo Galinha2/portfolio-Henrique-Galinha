@@ -53,6 +53,11 @@
     "title": "Contacts",
     "subtitle": "Feel free to reach out anytime, and I’ll be happy to take the time to address your needs :)",
     "info": {
+      "title": "Name",
+      "title1": "Email",
+      "title2": "Cellphone",
+      "title3": "LinkedIn",
+      "title4": "GitHub",
       "name": "Henrique Galinha",
       "email": "hgalinha1999@hotmail.com",
       "cellphone": "+351 963 910 417",
@@ -60,5 +65,5 @@
       "github": "Galinha2"
     }
   },
-  "footer": "© 2025 Henrique Galinha. All rights reserved."
+  "footer": "Henrique Galinha. All rights reserved."
 }

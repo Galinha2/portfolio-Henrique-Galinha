@@ -5,7 +5,7 @@ function Images() {
     <>
       {image.map((img, index) => (
         <img
-          className="w-[150px] hover:w-[250px] h-[440px] object-cover"
+          className="w-[130px] hover:w-[230px] h-[420px] object-cover"
           key={index}
           src={`/about ${img}.png`}
           alt={`Image ${img}`}
