@@ -50,7 +50,7 @@ function UserPhoto() {
         <h3 className="text-center text-[2.5em] text-[var(--text-black)]">
           {headerContent.greeting}
         </h3>
-        <h2 className="text-center mt-[-10] text-[2.5em] font-black text-[var(--yellow)]">
+        <h2 className="text-center min-w-100 mt-[-10] text-[2.5em] font-black text-[var(--yellow)]">
           {headerContent.name}
         </h2>
       </div>

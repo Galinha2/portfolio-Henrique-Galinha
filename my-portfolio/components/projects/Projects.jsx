@@ -15,7 +15,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="min-h-screen py-20 w-screen px-20 m-auto flex flex-col items-center justify-center gap-0"
+      className="min-h-screen py-20 w-screen px-5 lg:px-20 m-auto flex flex-col items-center justify-center gap-0"
     >
       <div className="text-left self-center w-full">
         <h1>{headerContent.title}</h1>

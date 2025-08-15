@@ -18,7 +18,7 @@ function About() {
         </h4>
         <div className="flex flex-col lg:flex-row w-full gap-10 lg:gap-20 items-center justify-center mt-10">
           <Images />
-          <p className="font-[900] text-[1em] sm:text-[1.1em] md:text-[1.3em] text-justify w-auto lg:min-w-80 lg:max-w-250 lg:w-auto text-white mt-5 lg:mt-0">
+          <p className="font-[900] text-[1em] sm:text-[1.1em] md:text-[1.3em] text-justify w-auto lg:min-w-80 lg:max-w-250 lg:w-auto text-white mt-5 lg:mt-0 whitespace-pre-line">
             {headerContent.description}
           </p>
         </div>

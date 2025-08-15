@@ -9,8 +9,11 @@ function ProjectsBox({ image, name, description, link, target }) {
     >
       <img className="w-20" src={image} alt="Project Logo" />
       <div>
-          <h5 className="text-[var(--text-black)]">{name}</h5>
-          <p className="text-[var(--text-gray)]">{description}</p>
+        <h5 className="text-[var(--text-black)]">{name}</h5>
+        <p className="text-[var(--text-gray)]">{description}</p>
+      </div>
+      <div className="relative w-full h-full bg-yellow-400">
+        <p>placeholder</p>
       </div>
     </Link>
   );

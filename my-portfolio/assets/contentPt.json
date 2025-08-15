@@ -34,15 +34,52 @@
     "title": "Os Meus Projetos",
     "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver abaixo alguns dos meus projetos favoritos.",
     "projects": [
-      { "name": "Frotgest", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Calculadora", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Frotgest Administração", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Designs de Logótipos", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Designs de Websites", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Amazon APT", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" },
-      { "name": "Jogo Simon", "description": "Aplicação de gestão de frota e equipamentos" }
+      {
+        "name": "Frotgest",
+        "description": "Website apresentando o produto Frotgest, destacando as suas funcionalidades e benefícios.",
+        "link": "https://frotgest.com/",
+        "target": "_blank",
+        "image": "/frotgestLogo.png"
+      },
+      {
+        "name": "Simon Game",
+        "description": "Jogo de desafio de memória onde o jogador repete sequências de cores.",
+        "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
+        "target": "_blank",
+        "image": "/simonIcon.png"
+      },
+      {
+        "name": "Calculadora",
+        "description": "Calculadora com um design elegante, minimalista e moderno.",
+        "link": "#",
+        "target": "_blank",
+        "image": "/calculator.png"
+      },
+      {
+        "name": "Administração Frotgest",
+        "description": "Painel de administração da aplicação Frotgest para gerir a frota e monitorizar a localização de cada equipamento.",
+        "link": "#",
+        "target": "_blank",
+        "image": "/LOGO.png"
+      },
+      {
+        "name": "Designs de Logotipo",
+        "description": "Coleção de designs criativos de logotipos que desenvolvi.",
+        "link": "#",
+        "image": "/logoDesign.png"
+      },
+      {
+        "name": "Designs de Websites",
+        "description": "Projetos de design de websites criados no Figma, focados na estética e usabilidade.",
+        "link": "#",
+        "image": "/figma.png"
+      },
+      {
+        "name": "Amazon APT",
+        "description": "Ferramenta em Python que acompanha os preços de produtos na Amazon e envia um email sempre que o preço é atualizado.",
+        "link": "#",
+        "image": "/image.png"
+      }
     ]
   },
   "about": {

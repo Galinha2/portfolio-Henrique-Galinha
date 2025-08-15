@@ -16,7 +16,7 @@ function Contact() {
 
   return (
     <div id="contact" className="h-screen w-screen">
-      <div className="flex flex-col m-auto w-screen h-screen gap-20 px-20 text-left justify-center items-center">
+      <div className="flex flex-col m-auto w-screen h-screen gap-20 p-5 lg:px-20 text-left justify-center items-center">
         <div className="px-2 w-full">
             <h1 className="w-full">{headerContent.title}</h1>
             <h5 className="text-[var(--text-black)]">{headerContent.subtitle}</h5>

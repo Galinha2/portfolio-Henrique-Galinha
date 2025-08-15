@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="px-5 w-auto min-w-screen ">
-      <div id="home" className="flex px-20 gap-20 pt-50 pb-20 lg:pb-0 lg:pt-0 flex-col lg:flex-row m-auto w-full items-center justify-between h-auto min-h-screen max-w-300">
+      <div id="home" className="flex px-20 gap-20 pt-50 pb-20 lg:pb-0 lg:pt-0 flex-col lg:flex-row m-auto w-full items-center justify-between h-auto min-h-screen max-w-350">
         <div className="order-2 lg:order-0">
             <QuickInfo
               title={headerContent.designerTitle}
