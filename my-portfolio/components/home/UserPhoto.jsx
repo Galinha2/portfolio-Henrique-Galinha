@@ -16,7 +16,7 @@ function UserPhoto() {
     <div>
       {/* Picture frame container with hover effect */}
       <div
-        className={`w-[230px] m-auto rounded-full shadow-md bg-[var(--horizontal-line)] cursor-pointer hover:w-[240px]`}
+        className={`w-[230px] m-auto rounded-full shadow-md bg-[var(--horizontal-line)] cursor-pointer hover:w-[240px] active:w-[230px]`}
         style={{ boxShadow: "0px 0px 2px #00000047, inset 0px 0px 2px white" }}
         onClick={() => setEffect(!effect)}
       >

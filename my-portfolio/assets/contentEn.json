@@ -34,15 +34,52 @@
     "title": "My Projects",
     "subtitle": "I love to create things, and I'm always working on something new! You can view some of my favorite projects below.",
     "projects": [
-      { "name": "Frotgest", "description": "Fleet and equipment management app" },
-      { "name": "Simon Game", "description": "Fleet and equipment management app" },
-      { "name": "Calculator", "description": "Fleet and equipment management app" },
-      { "name": "Frotgest Administration", "description": "Fleet and equipment management app" },
-      { "name": "Logo Designs", "description": "Fleet and equipment management app" },
-      { "name": "Website Designs", "description": "Fleet and equipment management app" },
-      { "name": "Amazon APT", "description": "Fleet and equipment management app" },
-      { "name": "Simon Game", "description": "Fleet and equipment management app" },
-      { "name": "Simon Game", "description": "Fleet and equipment management app" }
+      {
+        "name": "Frotgest",
+        "description": "Website presenting the Frotgest product, showcasing its features and benefits.",
+        "link": "https://frotgest.com/",
+        "target": "_blank",
+        "image": "/frotgestLogo.png"
+      },
+      {
+        "name": "Simon Game",
+        "description": "Memory challenge game where the player repeats color sequences.",
+        "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
+        "target": "_blank",
+        "image": "/simonIcon.png"
+      },
+      {
+        "name": "Calculator",
+        "description": "Calculator with an elegant, minimalistic, and modern design.",
+        "link": "#",
+        "target": "_blank",
+        "image": "/calculator.png"
+      },
+      {
+        "name": "Frotgest Administration",
+        "description": "Admin panel for Frotgest app to manage the fleet and monitor each equipment's location.",
+        "link": "#",
+        "target": "_blank",
+        "image": "/LOGO.png"
+      },
+      {
+        "name": "Logo Designs",
+        "description": "Collection of creative logo designs I developed.",
+        "link": "#",
+        "image": "/logoDesign.png"
+      },
+      {
+        "name": "Website Designs",
+        "description": "Website design projects created in Figma, focused on aesthetics and usability.",
+        "link": "#",
+        "image": "/figma.png"
+      },
+      {
+        "name": "Amazon APT",
+        "description": "Python tool that tracks Amazon product prices and sends an email whenever the price updates.",
+        "link": "#",
+        "image": "/image.png"
+      }
     ]
   },
   "about": {

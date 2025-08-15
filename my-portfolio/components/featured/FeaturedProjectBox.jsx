@@ -2,7 +2,7 @@ import contentEn from "../../assets/contentEn.json";
 import contentPt from "../../assets/contentPt.json";
 import { useLanguage } from "../LanguageContext";
 
-function ProjectBox() {
+function FeaturedProjectBox() {
   const { language } = useLanguage();
   const headerContent =
     language === "En"
@@ -38,7 +38,7 @@ function ProjectBox() {
       {content.map((item, index) => (
         <a
           key={index}
-          className="h-[215px] w-[345px] hover:h-[235px] cursor-pointer hover:w-[365px] text-white font-bold rounded-[25px]"
+          className="h-[315px] w-full hover:h-[335px] hover:mb-[-25px] cursor-pointer text-white font-bold rounded-[25px]"
           style={item.style}
           href={item.link}
           target="_blank"
@@ -47,7 +47,7 @@ function ProjectBox() {
           <img
             src={item.img}
             alt={item.name}
-            className="w-full hover:h-40 h-35 bg-white object-cover rounded-t-[25px]"
+            className="w-full hover:h-60 h-55 bg-white object-cover rounded-t-[25px]"
           />
           <div className="pt-1">
             <p className="text-2xl">{item.name}</p>
@@ -59,4 +59,4 @@ function ProjectBox() {
   );
 }
 
-export default ProjectBox;
+export default FeaturedProjectBox;

@@ -4,6 +4,7 @@ import Stack from "@/components/stack/Stack";
 import Featured from "@/components/featured/Featured";
 import About from "@/components/about/About";
 import Contact from "@/components/contact/Contact";
+import Projects from "@/components/projects/Projects";
 
 export default function HomePage() {
   return (
@@ -15,17 +16,12 @@ export default function HomePage() {
 
       <Featured />
       
-      <section
-        id="projects"
-        className="min-h-screen flex items-center justify-center bg-gray-100"
-      >
-        <h1>Projects</h1>
-      </section>
+      <Projects />
 
       <About />
 
       <Contact />
-      
+
     </div>
   );
 }
