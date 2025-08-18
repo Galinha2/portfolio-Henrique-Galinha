@@ -10,7 +10,7 @@ function Header() {
     language === "En" ? contentEn.header.nav : contentPt.header.nav;
 
   return (
-    <header className="z-10 shadow-new fixed top-5 inset-x-0 mx-auto flex gap-4 border-black p-3 px-5 text-[0.9em] rounded-full w-82">
+    <header className="z-100 shadow-new fixed top-5 inset-x-0 mx-auto flex gap-4 border-black p-3 px-5 text-[0.9em] rounded-full w-82">
       <div className="flex gap-0">
         {headerContent.map((item) => (
           <a
