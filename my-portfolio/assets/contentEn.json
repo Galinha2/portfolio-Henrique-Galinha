@@ -41,7 +41,32 @@
         "link": "https://frotgest.com/",
         "target": "_blank",
         "image": "/frotgestLogo.png",
-        "stacks": ["/image 1.png", "/image 5.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 14.png"]
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 14.png"
+        ]
+      },
+      {
+        "name": "Frotgest Administration",
+        "description": "Admin panel for Frotgest app to manage the fleet and monitor each equipment's location.",
+        "link": "https://yellow-wildcat-318807.hostingersite.com/",
+        "target": "_blank",
+        "image": "/LOGO.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 6.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 12.png",
+          "/image 13.png",
+          "/image 14.png"
+        ]
       },
       {
         "name": "Simon Game",
@@ -49,28 +74,30 @@
         "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
         "target": "_blank",
         "image": "/simonIcon.png",
-        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
+        "stacks": [
+          "/image 1.png",
+          "/image 4.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       },
       {
         "name": "Calculator",
         "description": "Calculator with an elegant, minimalistic, and modern design.",
-        "link": "#",
+        "link": "https://galinha2.github.io/JavaScript-e-TypeScript/exercicios/ex017/index.html",
         "target": "_blank",
         "image": "/calculator.png",
-        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
-      },
-      {
-        "name": "Frotgest Administration",
-        "description": "Admin panel for Frotgest app to manage the fleet and monitor each equipment's location.",
-        "link": "#",
-        "target": "_blank",
-        "image": "/LOGO.png",
-        "stacks": ["/image 1.png", "/image 5.png", "/image 6.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 12.png", "/image 13.png", "/image 14.png"]
+        "stacks": [
+          "/image 1.png",
+          "/image 4.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       },
       {
         "name": "Logo Designs",
         "description": "Collection of creative logo designs I developed.",
-        "link": "#",
+        "link": "/logo-designs",
         "image": "/logoDesign.png",
         "stacks": ["/figma.png"]
       },
@@ -78,15 +105,30 @@
         "name": "Website Designs",
         "description": "Website design projects created in Figma, focused on aesthetics and usability.",
         "link": "#",
+        "target": "_blank",
         "image": "/figma.png",
         "stacks": ["/figma.png"]
       },
       {
         "name": "Amazon APT",
         "description": "Python tool that tracks Amazon product prices and sends an email whenever the price updates.",
-        "link": "#",
+        "link": "https://github.com/Galinha2/Amazon-Price-Tracker-APT-",
+        "target": "_blank",
         "image": "/image.png",
         "stacks": ["/image 10.png"]
+      },
+      {
+        "name": "Far Away",
+        "description": "Quickly create your essentials list for any trip.",
+        "link": "https://honeydew-sparrow-536940.hostingersite.com",
+        "target": "_blank",
+        "image": "/farway.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       }
     ]
   },
@@ -110,5 +152,37 @@
       "github": "Galinha2"
     }
   },
-  "footer": "Henrique Galinha. All rights reserved."
+  "footer": "Henrique Galinha. All rights reserved.",
+  "logoDesign": {
+    "frotgest": {
+      "title": "FROTGEST",
+      "text": "The FROTGEST logo features vibrant colors and a modern, professional design. The pin with a gear symbolizes technology and tracking, while the smooth typography conveys trust and innovation.\n\nFrotgest makes equipment fleet management easy, enabling simple and efficient control of inventory, maintenance, and usage.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "logos": [
+        "/LOGO ROW CLEAR.png",
+        "/LOGO CIRCLE.png",
+        "/LOGO CLEAR.png",
+        "/APP ICON SQUARE.png",
+        "/APP ICON.png",
+        "/LOGO.png",
+        "/LOGO IN-LINE CLEAR.png",
+        "/LOGO IN-LINE CLEAR-1.png"
+      ]
+    },
+    "vasto": {
+      "title": "VASTO IMPÉRIO Lda.",
+      "text": "Vasto Império Lda. simplifies the buying and reselling of industrial shelving, providing reliable solutions for new and used equipment, ensuring efficient and high-quality storage.\n\nThe Vasto Império logo blends bold colors and strong lines to reflect reliability and structure. The clean design represents the company’s focus on buying and selling new and used industrial shelving and racks.",
+      "icon": "/draw.png",
+      "description": "Linearity",
+      "made": "Made with:",
+      "logos": [
+        "/logo-vasto-imperio-mini.png",
+        "/vasto little.png",
+        "/mini.png",
+        "/logo-vasto-imperio-white-2.png"
+      ]
+    }
+  }
 }

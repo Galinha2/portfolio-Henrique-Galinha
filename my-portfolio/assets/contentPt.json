@@ -41,36 +41,63 @@
         "link": "https://frotgest.com/",
         "target": "_blank",
         "image": "/frotgestLogo.png",
-        "stacks": ["/image 1.png", "/image 5.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 14.png"]
-              },
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 14.png"
+        ]
+      },
+      {
+        "name": "Administração Frotgest",
+        "description": "Painel de administração da aplicação Frotgest para gerir a frota e monitorizar a localização de cada equipamento.",
+        "link": "https://yellow-wildcat-318807.hostingersite.com/",
+        "target": "_blank",
+        "image": "/LOGO.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 6.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 12.png",
+          "/image 13.png",
+          "/image 14.png"
+        ]
+      },
       {
         "name": "Simon Game",
         "description": "Jogo de desafio de memória onde o jogador repete sequências de cores.",
         "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
         "target": "_blank",
         "image": "/simonIcon.png",
-        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
+        "stacks": [
+          "/image 1.png",
+          "/image 4.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       },
       {
         "name": "Calculadora",
         "description": "Calculadora com um design elegante, minimalista e moderno.",
-        "link": "#",
+        "link": "https://galinha2.github.io/JavaScript-e-TypeScript/exercicios/ex017/index.html",
         "target": "_blank",
         "image": "/calculator.png",
-        "stacks": ["/image 1.png", "/image 4.png", "/image 8.png", "/image 9.png"]
-      },
-      {
-        "name": "Administração Frotgest",
-        "description": "Painel de administração da aplicação Frotgest para gerir a frota e monitorizar a localização de cada equipamento.",
-        "link": "#",
-        "target": "_blank",
-        "image": "/LOGO.png",
-        "stacks": ["/image 1.png", "/image 5.png", "/image 6.png", "/image 7.png", "/image 8.png", "/image 9.png", "/image 12.png", "/image 13.png", "/image 14.png"]
+        "stacks": [
+          "/image 1.png",
+          "/image 4.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       },
       {
         "name": "Designs de Logotipo",
         "description": "Coleção de designs criativos de logotipos que desenvolvi.",
-        "link": "#",
+        "link": "/logo-designs",
         "image": "/logoDesign.png",
         "stacks": ["/figma.png"]
       },
@@ -78,15 +105,30 @@
         "name": "Designs de Websites",
         "description": "Projetos de design de websites criados no Figma, focados na estética e usabilidade.",
         "link": "#",
+        "target": "_blank",
         "image": "/figma.png",
         "stacks": ["/figma.png"]
       },
       {
         "name": "Amazon APT",
         "description": "Ferramenta em Python que acompanha os preços de produtos na Amazon e envia um email sempre que o preço é atualizado.",
-        "link": "#",
+        "link": "https://github.com/Galinha2/Amazon-Price-Tracker-APT-",
+        "target": "_blank",
         "image": "/image.png",
         "stacks": ["/image 10.png"]
+      },
+      {
+        "name": "Far Away",
+        "description": "Cria rapidamente a tua lista de essenciais para qualquer viagem.",
+        "link": "https://honeydew-sparrow-536940.hostingersite.com",
+        "target": "_blank",
+        "image": "/farway.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       }
     ]
   },
