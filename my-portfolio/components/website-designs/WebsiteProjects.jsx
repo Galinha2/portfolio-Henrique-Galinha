@@ -19,7 +19,7 @@ function WebsiteProjects({ data }) {
 
   return (
     <div className="bg-[var(--text-black)] flex-wrap w-screen gap-5 p-5 flex flex-col items-center justify-center">
-      <h4 className="w-full text-center text-white">{data.title}</h4>
+      <h4 className="w-full mt-20 text-left text-white max-w-300">{data.title}</h4>
       <p className="w-full text-2xl font-[900] text-justify max-w-300 text-white">
         {data.text}
       </p>
@@ -30,7 +30,7 @@ function WebsiteProjects({ data }) {
         <IconClick icon={data.icon} text={data.description} />
       </div>
 
-      <div className="flex flex-wrap items-start justify-center gap-5 p-5 bg-[var(--gray)] w-fit rounded-[25px]">
+      <div className="flex flex-wrap w-full max-w-300 items-start justify-center gap-5 p-5 bg-[var(--gray)] rounded-[25px]">
         {images.map((image, index) => (
           <WebsiteBox key={index} image={image} />
         ))}

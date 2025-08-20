@@ -4,40 +4,40 @@
   },
   "hero": {
     "designerTitle": "Designer",
-    "designer": "Designer UI/UX que cria experiências digitais bonitas, funcionais e envolventes.",
+    "designer": "Designer UI/UX a criar experiências digitais bonitas, funcionais e envolventes.",
     "developerTitle": "<Programador />",
-    "developer": "Programador Frontend & Fullstack que desenvolve interfaces elegantes, intuitivas e backends escaláveis.",
+    "developer": "Programador Frontend & Fullstack a desenvolver interfaces elegantes e intuitivas, com backends sólidos e escaláveis.",
     "greeting": "Olá, o meu nome é",
     "name": "Henrique Galinha"
   },
   "stacks": {
-    "title": "As Minhas Tecnologias"
+    "title": "As Minhas Stacks"
   },
   "featuredWorks": {
     "title": "Trabalhos em Destaque",
     "projects": [
       {
         "name": "Frotgest",
-        "description": "Aplicação de gestão de frota e equipamentos"
+        "description": "Aplicação de gestão de frotas e equipamentos"
       },
       {
-        "name": "Jogo Simon",
-        "description": "Sequências de cores para testar a memória"
+        "name": "Frotgest - Painel de Administração",
+        "description": "Gestão de frota e monitorização da localização dos equipamentos."
       },
       {
-        "name": "Designs de Logótipos",
-        "description": "Designs para empresas de logótipos"
+        "name": "Simon Game",
+        "description": "Jogo de desafio de memória onde o jogador repete sequências de cores."
       }
     ]
   },
   "projectsSection": {
     "title": "Os Meus Projetos",
-    "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver abaixo alguns dos meus projetos favoritos.",
-    "stackTitle": "Tecnologias Usadas:",
+    "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver alguns dos meus projetos favoritos abaixo.",
+    "stackTitle": "Stacks Usadas:",
     "projects": [
       {
         "name": "Frotgest",
-        "description": "Website apresentando o produto Frotgest, destacando as suas funcionalidades e benefícios.",
+        "description": "Website de apresentação do produto Frotgest, destacando as suas funcionalidades e benefícios.",
         "link": "https://frotgest.com/",
         "target": "_blank",
         "image": "/frotgestLogo.png",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "name": "Administração Frotgest",
+        "name": "Frotgest Administration",
         "description": "Painel de administração da aplicação Frotgest para gerir a frota e monitorizar a localização de cada equipamento.",
         "link": "https://yellow-wildcat-318807.hostingersite.com/",
         "target": "_blank",
@@ -82,7 +82,7 @@
         ]
       },
       {
-        "name": "Calculadora",
+        "name": "Calculator",
         "description": "Calculadora com um design elegante, minimalista e moderno.",
         "link": "https://galinha2.github.io/JavaScript-e-TypeScript/exercicios/ex017/index.html",
         "target": "_blank",
@@ -95,23 +95,22 @@
         ]
       },
       {
-        "name": "Designs de Logotipo",
-        "description": "Coleção de designs criativos de logotipos que desenvolvi.",
+        "name": "Logo Designs",
+        "description": "Coleção de designs criativos de logótipos desenvolvidos por mim.",
         "link": "/logo-designs",
         "image": "/logoDesign.png",
         "stacks": ["/figma.png"]
       },
       {
-        "name": "Designs de Websites",
+        "name": "Website Designs",
         "description": "Projetos de design de websites criados no Figma, focados na estética e usabilidade.",
-        "link": "#",
-        "target": "_blank",
+        "link": "/website-designs",
         "image": "/figma.png",
         "stacks": ["/figma.png"]
       },
       {
         "name": "Amazon APT",
-        "description": "Ferramenta em Python que acompanha os preços de produtos na Amazon e envia um email sempre que o preço é atualizado.",
+        "description": "Ferramenta em Python que rastreia preços de produtos na Amazon e envia e-mails sempre que o preço muda.",
         "link": "https://github.com/Galinha2/Amazon-Price-Tracker-APT-",
         "target": "_blank",
         "image": "/image.png",
@@ -129,20 +128,33 @@
           "/image 8.png",
           "/image 9.png"
         ]
+      },
+      {
+        "name": "TinDog",
+        "description": "Conhece cães novos e interessantes perto de ti.",
+        "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/2-Bootstrap/11.3%20TinDog%20Project/index.html",
+        "target": "_blank",
+        "image": "/tindog.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 2.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
       }
     ]
   },
   "about": {
     "title": "Sobre",
-    "description": "Olá, o meu nome é Henrique Galinha, nasci em 1999. Sou ex-militar das Tropas Especiais paraquedistas, com 5 anos de serviço, onde também trabalhei como dobrador e instrutor de paraquedas em vários cursos.\n\nDestaco-me em ambientes de trabalho em equipa, mantenho a calma e o foco sob pressão, e encaro os desafios como oportunidades de crescimento. A minha experiência militar deu-me uma forte disciplina, adaptabilidade e capacidade de resolução de problemas, qualidades que aplico agora no meu trabalho em tecnologia e programação.\n\nTenho também uma paixão pelo design e pela sua capacidade de inspirar e criar ligação com as pessoas, combinando criatividade com precisão técnica para criar experiências digitais com significado."
+    "description": "Olá, o meu nome é Henrique Galinha, nasci em 1999. Sou ex-militar das Tropas Especiais Paraquedistas, com 5 anos de serviço, onde também trabalhei como dobrador de paraquedas e instrutor em vários cursos.\n\nAdoro ambientes de equipa, mantenho a calma e o foco sob pressão e encaro os desafios como oportunidades de crescimento. A minha experiência militar deu-me uma forte disciplina, adaptabilidade e capacidade de resolução de problemas, qualidades que agora aplico ao meu trabalho em tecnologia e programação.\n\nTenho também uma paixão por design e pela sua capacidade de inspirar e conectar pessoas, juntando criatividade com precisão técnica para criar experiências digitais com significado."
   },
   "contacts": {
     "title": "Contactos",
-    "subtitle": "Sente-te à vontade para entrar em contacto comigo a qualquer momento, terei todo o gosto em dedicar o tempo necessário para atender às tuas necessidades :)",
+    "subtitle": "Sinta-se à vontade para entrar em contacto a qualquer momento, terei todo o gosto em dedicar tempo às tuas necessidades :)",
     "info": {
       "title": "Nome",
       "title1": "Email",
-      "title2": "Telemovel",
+      "title2": "Telemóvel",
       "title3": "LinkedIn",
       "title4": "GitHub",
       "name": "Henrique Galinha",
@@ -152,5 +164,104 @@
       "github": "Galinha2"
     }
   },
-  "footer": "Henrique Galinha. Todos os direitos reservados."
+  "footer": "Henrique Galinha. Todos os direitos reservados.",
+  "logoDesign": {
+    "frotgest": {
+      "title": "FROTGEST",
+      "text": "O logótipo da FROTGEST apresenta cores vivas e um design moderno e profissional. O marcador com uma engrenagem simboliza tecnologia e tracking, enquanto a tipografia suave transmite confiança e inovação.\n\nA Frotgest facilita a gestão de frotas de equipamentos, permitindo um controlo simples e eficiente do inventário, manutenção e utilização.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "logos": [
+        "/LOGO ROW CLEAR.png",
+        "/LOGO CIRCLE.png",
+        "/LOGO CLEAR.png",
+        "/APP ICON SQUARE.png",
+        "/APP ICON.png",
+        "/LOGO.png",
+        "/LOGO IN-LINE CLEAR.png",
+        "/LOGO IN-LINE CLEAR-1.png"
+      ]
+    },
+    "vasto": {
+      "title": "VASTO IMPÉRIO Lda.",
+      "text": "A Vasto Império Lda. simplifica a compra e revenda de prateleiras industriais, oferecendo soluções fiáveis para equipamentos novos e usados, garantindo armazenamento eficiente e de alta qualidade.\n\nO logótipo da Vasto Império combina cores fortes e linhas marcadas para refletir fiabilidade e estrutura. O design limpo representa o foco da empresa na venda e revenda de prateleiras industriais novas e usadas.",
+      "icon": "/draw.png",
+      "description": "Linearity",
+      "made": "Feito com:",
+      "logos": [
+        "/logo-vasto-imperio-mini.png",
+        "/vasto little.png",
+        "/mini.png",
+        "/logo-vasto-imperio-white-2.png"
+      ]
+    }
+  },
+  "websiteDesign": {
+  "frotgest": {
+    "title": "FROTGEST",
+    "text": "Website que apresenta a aplicação Frotgest, onde os utilizadores podem explorar o produto, ver preços e conhecer as funcionalidades para gestão de frota de ferramentas de trabalho. O design é limpo e profissional, com foco na clareza e navegação intuitiva para apresentar as funcionalidades da aplicação de forma eficaz.",
+    "icon": "/figma.png",
+    "description": "Figma",
+    "made": "Feito com:",
+    "images": [
+      "/Home.png",
+      "/Product.png",
+      "/Pricing.png",
+      "/Contacts.png",
+      "/Sign-in.png"
+    ]
+  },
+  "frotgestApp": {
+    "title": "FROTGEST APP MÓVEL",
+    "text": "A aplicação mobile Frotgest permite às empresas gerir e localizar todas as suas ferramentas. Os utilizadores podem adicionar novos itens, gerir localizações, atualizar informações e fazer check-out de ferramentas através de códigos QR ou NFC. A app tem uma interface moderna e intuitiva, pensada para acesso rápido e utilização fácil em movimento.",
+    "icon": "/figma.png",
+    "description": "Figma",
+    "made": "Feito com:",
+    "images": [
+      "/Log-in.png",
+      "/Home-app.png",
+      "/Tools.png",
+      "/Tools-1.png",
+      "/Scan QR.png"
+    ]
+  },
+  "frotgestAdmin": {
+    "title": "FROTGEST PAINEL DE ADMINISTRAÇÃO",
+    "text": "Painel web que reflete as funcionalidades da app móvel, permitindo uma gestão abrangente de equipamentos. Os utilizadores podem localizar, editar e gerir todas as ferramentas através de uma interface para desktop. O design dá prioridade à eficiência e organização, garantindo uma gestão fluida de tarefas complexas.",
+    "icon": "/figma.png",
+    "description": "Figma",
+    "made": "Feito com:",
+    "images": [
+      "/Admin Painel.png",
+      "/Tools Painel.png",
+      "/Tools Painel-1.png",
+      "/Tools Painel-2.png",
+      "/Notes Painel.png",
+      "/Users Painel.png"
+    ]
+  },
+  "portbridge": {
+    "title": "PORTBRIDGE",
+    "text": "Website de uma empresa de engenharia especializada em pontes, que oferece aluguer de camiões equipados para apoiar projetos de construção de pontes. O site apresenta um design profissional e industrial, com descrições claras dos serviços e fácil acesso a informações sobre veículos e projetos.",
+    "icon": "/figma.png",
+    "description": "Figma",
+    "made": "Feito com:",
+    "images": [
+      "/Home Port.jpg",
+      "/Truck.jpg"
+    ]
+  },
+  "danau": {
+    "title": "DANAU",
+    "text": "Website para um restaurante de hambúrgueres e pratos tradicionais de praia, apresentando o menu e permitindo encomendas online. O design é vibrante e apelativo, combinando imagens dos pratos com um layout amigável que torna a navegação e o pedido simples e agradável.",
+    "icon": "/figma.png",
+    "description": "Figma",
+    "made": "Feito com:",
+    "video": [
+      "/Danau.mp4"
+    ]
+  }
+}
+
 }

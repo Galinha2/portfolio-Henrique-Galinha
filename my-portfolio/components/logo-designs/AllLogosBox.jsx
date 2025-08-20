@@ -9,7 +9,7 @@ function AllLogosBox({ data }) {
     // Main container with black background and centered column alignment
     <div className="bg-[var(--text-black)] flex flex-col items-center justify-center p-5">
       {/* Title of the logo set */}
-      <h4 className="mb-5 text-center text-white">{data.title}</h4>
+      <h4 className="mb-20 text-center text-white my-15">{data.title}</h4>
       {/* Flexible container that organizes the logos and text side by side */}
       <div className="flex flex-wrap items-center justify-center w-full m-auto gap-15 md:gap-5 md:flex-nowrap l flex-no md:items-start lg:justify-between md:flex-row max-w-300">
         {/* Box containing the logos, with gray background and rounded borders */}
