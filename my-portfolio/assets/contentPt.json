@@ -141,6 +141,14 @@
           "/image 8.png",
           "/image 9.png"
         ]
+      },
+      {
+        "name": "Vasto Império Lda.",
+        "description": "Website para a empresa Vasto Império Lda., totalmente desenvolvido apenas com HTML e CSS nativos.",
+        "link": "https://galinha2.github.io/vasto-imperio-lda/pagina-principal/",
+        "target": "_blank",
+        "image": "/vasto little.png",
+        "stacks": ["/image 8.png", "/image 9.png"]
       }
     ]
   },
@@ -198,70 +206,75 @@
     }
   },
   "websiteDesign": {
-  "frotgest": {
-    "title": "FROTGEST",
-    "text": "Website que apresenta a aplicação Frotgest, onde os utilizadores podem explorar o produto, ver preços e conhecer as funcionalidades para gestão de frota de ferramentas de trabalho. O design é limpo e profissional, com foco na clareza e navegação intuitiva para apresentar as funcionalidades da aplicação de forma eficaz.",
-    "icon": "/figma.png",
-    "description": "Figma",
-    "made": "Feito com:",
-    "images": [
-      "/Home.png",
-      "/Product.png",
-      "/Pricing.png",
-      "/Contacts.png",
-      "/Sign-in.png"
-    ]
-  },
-  "frotgestApp": {
-    "title": "FROTGEST APP MÓVEL",
-    "text": "A aplicação mobile Frotgest permite às empresas gerir e localizar todas as suas ferramentas. Os utilizadores podem adicionar novos itens, gerir localizações, atualizar informações e fazer check-out de ferramentas através de códigos QR ou NFC. A app tem uma interface moderna e intuitiva, pensada para acesso rápido e utilização fácil em movimento.",
-    "icon": "/figma.png",
-    "description": "Figma",
-    "made": "Feito com:",
-    "images": [
-      "/Log-in.png",
-      "/Home-app.png",
-      "/Tools.png",
-      "/Tools-1.png",
-      "/Scan QR.png"
-    ]
-  },
-  "frotgestAdmin": {
-    "title": "FROTGEST PAINEL DE ADMINISTRAÇÃO",
-    "text": "Painel web que reflete as funcionalidades da app móvel, permitindo uma gestão abrangente de equipamentos. Os utilizadores podem localizar, editar e gerir todas as ferramentas através de uma interface para desktop. O design dá prioridade à eficiência e organização, garantindo uma gestão fluida de tarefas complexas.",
-    "icon": "/figma.png",
-    "description": "Figma",
-    "made": "Feito com:",
-    "images": [
-      "/Admin Painel.png",
-      "/Tools Painel.png",
-      "/Tools Painel-1.png",
-      "/Tools Painel-2.png",
-      "/Notes Painel.png",
-      "/Users Painel.png"
-    ]
-  },
-  "portbridge": {
-    "title": "PORTBRIDGE",
-    "text": "Website de uma empresa de engenharia especializada em pontes, que oferece aluguer de camiões equipados para apoiar projetos de construção de pontes. O site apresenta um design profissional e industrial, com descrições claras dos serviços e fácil acesso a informações sobre veículos e projetos.",
-    "icon": "/figma.png",
-    "description": "Figma",
-    "made": "Feito com:",
-    "images": [
-      "/Home Port.jpg",
-      "/Truck.jpg"
-    ]
-  },
-  "danau": {
-    "title": "DANAU",
-    "text": "Website para um restaurante de hambúrgueres e pratos tradicionais de praia, apresentando o menu e permitindo encomendas online. O design é vibrante e apelativo, combinando imagens dos pratos com um layout amigável que torna a navegação e o pedido simples e agradável.",
-    "icon": "/figma.png",
-    "description": "Figma",
-    "made": "Feito com:",
-    "video": [
-      "/Danau.mp4"
-    ]
+    "cv": {
+      "title": "PORTFOLIO HENRIQUE",
+      "text": "Design deste website portfólio que apresenta os meus projetos como desenvolvedor. Procurei criar um design limpo, simples e direto para garantir uma experiência fácil e intuitiva para o utilizador.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/cvhome.png",
+        "/cvlogopanel.png"
+      ]
+    },
+    "frotgest": {
+      "title": "FROTGEST",
+      "text": "Website que apresenta a aplicação Frotgest, onde os utilizadores podem explorar o produto, ver preços e conhecer as funcionalidades para gestão de frota de ferramentas de trabalho. O design é limpo e profissional, com foco na clareza e navegação intuitiva para apresentar as funcionalidades da aplicação de forma eficaz.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "images": [
+        "/Home.png",
+        "/Product.png",
+        "/Pricing.png",
+        "/Contacts.png",
+        "/Sign-in.png"
+      ]
+    },
+    "frotgestApp": {
+      "title": "FROTGEST APP MÓVEL",
+      "text": "A aplicação mobile Frotgest permite às empresas gerir e localizar todas as suas ferramentas. Os utilizadores podem adicionar novos itens, gerir localizações, atualizar informações e fazer check-out de ferramentas através de códigos QR ou NFC. A app tem uma interface moderna e intuitiva, pensada para acesso rápido e utilização fácil em movimento.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "images": [
+        "/Log-in.png",
+        "/Home-app.png",
+        "/Tools.png",
+        "/Tools-1.png",
+        "/Scan QR.png"
+      ]
+    },
+    "frotgestAdmin": {
+      "title": "FROTGEST PAINEL DE ADMINISTRAÇÃO",
+      "text": "Painel web que reflete as funcionalidades da app móvel, permitindo uma gestão abrangente de equipamentos. Os utilizadores podem localizar, editar e gerir todas as ferramentas através de uma interface para desktop. O design dá prioridade à eficiência e organização, garantindo uma gestão fluida de tarefas complexas.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "images": [
+        "/Admin Painel.png",
+        "/Tools Painel.png",
+        "/Tools Painel-1.png",
+        "/Tools Painel-2.png",
+        "/Notes Painel.png",
+        "/Users Painel.png"
+      ]
+    },
+    "portbridge": {
+      "title": "PORTBRIDGE",
+      "text": "Website de uma empresa de engenharia especializada em pontes, que oferece aluguer de camiões equipados para apoiar projetos de construção de pontes. O site apresenta um design profissional e industrial, com descrições claras dos serviços e fácil acesso a informações sobre veículos e projetos.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "images": ["/Home Port.jpg", "/Truck.jpg"]
+    },
+    "danau": {
+      "title": "DANAU",
+      "text": "Website para um restaurante de hambúrgueres e pratos tradicionais de praia, apresentando o menu e permitindo encomendas online. O design é vibrante e apelativo, combinando imagens dos pratos com um layout amigável que torna a navegação e o pedido simples e agradável.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "video": ["/Danau.mp4"]
+    }
   }
-}
-
 }

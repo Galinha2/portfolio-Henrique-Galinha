@@ -9,8 +9,8 @@ function Home() {
   const headerContent = language === "En" ? contentEn.hero : contentPt.hero;
 
   return (
-    <div className="px-5 w-auto min-w-screen ">
-      <div id="home" className="flex px-20 gap-20 pt-50 pb-20 lg:pb-0 lg:pt-0 flex-col lg:flex-row m-auto w-full items-center justify-between h-auto min-h-screen max-w-350">
+    <div className="w-auto px-5 min-w-screen ">
+      <div id="home" className="flex flex-col items-center justify-between w-full h-auto min-h-screen gap-20 px-20 pb-20 m-auto lg:gap-5 pt-50 lg:pb-0 lg:pt-0 lg:flex-row max-w-350">
         <div className="order-2 lg:order-0">
             <QuickInfo
               title={headerContent.designerTitle}

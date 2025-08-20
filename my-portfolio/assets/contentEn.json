@@ -141,6 +141,17 @@
           "/image 8.png",
           "/image 9.png"
         ]
+      },
+      {
+        "name": "Vasto Império Lda.",
+        "description": "Website for the company Vasto Império Lda, fully made with just native HTML and CSS.",
+        "link": "https://galinha2.github.io/vasto-imperio-lda/pagina-principal/",
+        "target": "_blank",
+        "image": "/vasto little.png",
+        "stacks": [
+          "/image 8.png",
+          "/image 9.png"
+        ]
       }
     ]
   },
@@ -198,6 +209,17 @@
     }
   },
   "websiteDesign": {
+    "cv": {
+      "title": "PORTFOLIO HENRIQUE",
+      "text": "Design of this portfolio website showcasing my projects as a developer. I aimed for a clean, straightforward, and direct design to ensure an easy and intuitive experience for the user.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/cvhome.png",
+        "/cvlogopanel.png"
+      ]
+    },
     "frotgest": {
       "title": "FROTGEST",
       "text": "A website showcasing the Frotgest app, where users can explore the product, see pricing, and understand its features for managing a fleet of work tools. The design is clean and professional, with a focus on clarity and user-friendly navigation to present the app’s functionalities effectively.",
