@@ -19,13 +19,13 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="min-h-screen py-20 w-screen px-5 lg:px-20 m-auto flex flex-col items-center justify-center gap-0"
+      className="flex flex-col items-center justify-center w-screen min-h-screen gap-0 px-5 py-20 m-auto lg:px-20"
     >
-      <div className="text-left self-center w-full">
+      <div className="self-center w-full text-left">
         <h1>{headerContent.title}</h1>
         <h5 className="text-[var(--text-black)]">{headerContent.subtitle}</h5>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 w-full items-start">
+      <div className="grid items-start w-full grid-cols-1 gap-10 mt-20 md:grid-cols-2 lg:grid-cols-3">
         {projectsContent.map((project, index) => (
             <ProjectsBox
                 key={index}

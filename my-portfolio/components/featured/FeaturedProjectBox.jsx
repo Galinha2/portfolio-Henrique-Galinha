@@ -19,17 +19,17 @@ function FeaturedProjectBox() {
     },
     {
       name: headerContent[1].name,
+      img: "/frotgestebanner.png",
+      description: headerContent[1].description,
+      link: "https://yellow-wildcat-318807.hostingersite.com/",
+      style: { backgroundImage: "linear-gradient(to right, #485696, #171C30)" },
+    },
+    {
+      name: headerContent[2].name,
       img: "/simon.png",
       description: headerContent[1].description,
       link: "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
       style: { backgroundImage: "linear-gradient(to right, #1B998B, #09332E)" },
-    },
-    {
-      name: headerContent[2].name,
-      img: "/logo design.png",
-      description: headerContent[2].description,
-      link: "#",
-      style: { backgroundImage: "linear-gradient(to right, #485696, #171C30)" },
     },
   ];
 
@@ -38,7 +38,7 @@ function FeaturedProjectBox() {
       {content.map((item, index) => (
         <a
           key={index}
-          className="h-[315px] w-full hover:h-[335px] hover:mb-[-25px] cursor-pointer text-white font-bold rounded-[25px]"
+          className="h-auto min-h-[315px] w-full hover:h-[365px] hover:mb-[-25px] cursor-pointer text-white font-bold rounded-[25px]"
           style={item.style}
           href={item.link}
           target="_blank"
@@ -47,9 +47,9 @@ function FeaturedProjectBox() {
           <img
             src={item.img}
             alt={item.name}
-            className="w-full hover:h-60 h-55 bg-white object-cover rounded-t-[25px]"
+            className="w-full hover:h-60 h-55 bg-white object-top object-center object-cover rounded-t-[25px]"
           />
-          <div className="pt-1">
+          <div className="p-2 pt-1">
             <p className="text-2xl">{item.name}</p>
             <p>{item.description}</p>
           </div>

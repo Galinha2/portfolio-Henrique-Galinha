@@ -5,7 +5,7 @@
   "hero": {
     "designerTitle": "Designer",
     "designer": "UI/UX Designer creating beautiful, functional, and engaging digital experiences.",
-    "developerTitle": "</ Developer >",
+    "developerTitle": "<Developer />",
     "developer": "Frontend & Fullstack Developer building elegant, intuitive interfaces and powerful, scalable backends.",
     "greeting": "Hello, my name is",
     "name": "Henrique Galinha"
@@ -21,12 +21,12 @@
         "description": "Fleet and equipment management app"
       },
       {
-        "name": "Simon Game",
-        "description": "Repeat color sequences to test memory"
+        "name": "Frotgest - Administration Panel",
+        "description": "Management fleet and monitor equipment's location."
       },
       {
-        "name": "Logo Designs",
-        "description": "Designs for logo companies"
+        "name": "Simon Game",
+        "description": "Memory challenge game where the player repeats color sequences."
       }
     ]
   },
@@ -104,8 +104,7 @@
       {
         "name": "Website Designs",
         "description": "Website design projects created in Figma, focused on aesthetics and usability.",
-        "link": "#",
-        "target": "_blank",
+        "link": "/website-designs",
         "image": "/figma.png",
         "stacks": ["/figma.png"]
       },
@@ -126,6 +125,19 @@
         "stacks": [
           "/image 1.png",
           "/image 5.png",
+          "/image 8.png",
+          "/image 9.png"
+        ]
+      },
+      {
+        "name": "TinDog",
+        "description": "Meet new and interesting dogs nearby.",
+        "link": "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/2-Bootstrap/11.3%20TinDog%20Project/index.html",
+        "target": "_blank",
+        "image": "/tindog.png",
+        "stacks": [
+          "/image 1.png",
+          "/image 2.png",
           "/image 8.png",
           "/image 9.png"
         ]
@@ -182,6 +194,72 @@
         "/vasto little.png",
         "/mini.png",
         "/logo-vasto-imperio-white-2.png"
+      ]
+    }
+  },
+  "websiteDesign": {
+    "frotgest": {
+      "title": "FROTGEST",
+      "text": "A website showcasing the Frotgest app, where users can explore the product, see pricing, and understand its features for managing a fleet of work tools. The design is clean and professional, with a focus on clarity and user-friendly navigation to present the app’s functionalities effectively.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/Home.png",
+        "/Product.png",
+        "/Pricing.png",
+        "/Contacts.png",
+        "/Sign-in.png"
+      ]
+    },
+    "frotgestApp": {
+      "title": "FROTGEST MOBILE APP",
+      "text": "The Frotgest mobile app allows companies to manage and track all their tools. Users can add new items, manage locations, update information, and check out tools using QR codes or NFC. The app features an intuitive and modern interface designed for quick access and easy operation on the go.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/Log-in.png",
+        "/Home-app.png",
+        "/Tools.png",
+        "/Tools-1.png",
+        "/Scan QR.png"
+      ]
+    },
+    "frotgestAdmin": {
+      "title": "FROTGEST ADMINISTRATION PANEL",
+      "text": "A web-based panel that mirrors the mobile app’s functionality, providing comprehensive management of equipment. Users can track, edit, and manage all tools through a desktop interface. The design prioritizes efficiency and organization, ensuring complex tasks are handled smoothly.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/Admin Painel.png",
+        "/Tools Painel.png",
+        "/Tools Painel-1.png",
+        "/Tools Painel-2.png",
+        "/Notes Painel.png",
+        "/Users Painel.png"
+      ]
+    },
+    "portbridge": {
+      "title": "PORTBRIDGE",
+      "text": "An engineering company website specialized in bridges, offering truck rentals equipped for supporting bridge construction projects. The site features a professional, industrial design with clear service descriptions and easy access to vehicle and project information.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/Home Port.jpg",
+        "/Truck.jpg"
+      ]
+    },
+    "danau": {
+      "title": "DANAU",
+      "text": "A website for a burger and traditional beach dishes restaurant, displaying the menu and allowing online orders. The design is vibrant and appetizing, combining imagery of the dishes with a user-friendly layout that makes browsing and ordering simple and enjoyable.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "video": [
+        "/Danau.mp4"
       ]
     }
   }
