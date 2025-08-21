@@ -98,7 +98,7 @@
         "name": "Logo Designs",
         "description": "Collection of creative logo designs I developed.",
         "link": "/logo-designs",
-        "image": "/logoDesign.png",
+        "image": "/logodesign.png",
         "stacks": ["/figma.png"]
       },
       {
@@ -271,7 +271,7 @@
       "made": "Made with:",
       "images": [
         "/Home Port.jpg",
-        "/Truck.jpg"
+        "/truck.jpg"
       ]
     },
     "danau": {

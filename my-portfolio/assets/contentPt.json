@@ -98,7 +98,7 @@
         "name": "Logo Designs",
         "description": "Coleção de designs criativos de logótipos desenvolvidos por mim.",
         "link": "/logo-designs",
-        "image": "/logoDesign.png",
+        "image": "/logodesign.png",
         "stacks": ["/figma.png"]
       },
       {
@@ -266,7 +266,7 @@
       "icon": "/figma.png",
       "description": "Figma",
       "made": "Feito com:",
-      "images": ["/Home Port.jpg", "/Truck.jpg"]
+      "images": ["/Home Port.jpg", "/truck.jpg"]
     },
     "danau": {
       "title": "DANAU",
