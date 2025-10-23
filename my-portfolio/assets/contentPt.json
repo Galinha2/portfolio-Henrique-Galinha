@@ -17,16 +17,16 @@
     "title": "Trabalhos em Destaque",
     "projects": [
       {
-        "name": "Frotgest",
-        "description": "Aplicação de gestão de frotas e equipamentos"
+        "name": "SuperNova 2177",
+        "description": "Web app estilo social inspirado no Reddit, com posts, comentários, likes/dislikes, votos ponderados e criação de perfis locais. Inclui funcionalidades de pesquisa e filtros."
       },
       {
         "name": "Frotgest - Painel de Administração",
         "description": "Gestão de frota e monitorização da localização dos equipamentos."
       },
       {
-        "name": "Simon Game",
-        "description": "Jogo de desafio de memória onde o jogador repete sequências de cores."
+        "name": "Frotgest",
+        "description": "Aplicação de gestão de frotas e equipamentos"
       }
     ]
   },
@@ -35,6 +35,24 @@
     "subtitle": "Adoro criar coisas e estou sempre a trabalhar em algo novo! Podes ver alguns dos meus projetos favoritos abaixo.",
     "stackTitle": "Stacks Usadas:",
     "projects": [
+      {
+        "name": "SuperNova 2177",
+        "description": "Web app estilo social inspirado no Reddit, com posts, comentários, likes/dislikes, votos ponderados e criação de perfis locais. Inclui funcionalidades de pesquisa e filtros.",
+        "link": "https://yellow-loris-263991.hostingersite.com",
+        "target": "_blank",
+        "image": "/supernovalogo.jpg",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 6.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 12.png",
+          "/image 13.png",
+          "/image 14.png"
+        ]
+      },
       {
         "name": "Frotgest",
         "description": "Website de apresentação do produto Frotgest, destacando as suas funcionalidades e benefícios.",
@@ -206,16 +224,29 @@
     }
   },
   "websiteDesign": {
+    "supernova": {
+      "title": "SuperNova 2177",
+      "text": "Design e desenvolvimento de uma web app estilo social inspirada no Reddit, com posts, comentários, likes, dislikes e votação ponderada. Os perfis são criados localmente por design e inclui pesquisa e filtros para navegação eficiente.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Feito com:",
+      "images": [
+        "/Home page.jpg",
+        "/Comments.jpg",
+        "/Likes.jpg",
+        "/Settings.jpg",
+        "/Create Proposals.jpg",
+        "/Home page - Phone.jpg",
+        "/Create proposal - Phone.jpg"
+      ]
+    },
     "cv": {
       "title": "PORTFOLIO HENRIQUE",
       "text": "Design deste website portfólio que apresenta os meus projetos como desenvolvedor. Procurei criar um design limpo, simples e direto para garantir uma experiência fácil e intuitiva para o utilizador.",
       "icon": "/figma.png",
       "description": "Figma",
-      "made": "Made with:",
-      "images": [
-        "/cvhome.png",
-        "/cvlogopanel.png"
-      ]
+      "made": "Feito com:",
+      "images": ["/cvhome.png", "/cvlogopanel.png"]
     },
     "frotgest": {
       "title": "FROTGEST",

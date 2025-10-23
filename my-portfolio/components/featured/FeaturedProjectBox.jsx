@@ -12,10 +12,10 @@ function FeaturedProjectBox() {
   const content = [
     {
       name: headerContent[0].name,
-      img: "/frotgestweb.png",
+      img: "/supernova.png",
       description: headerContent[0].description,
-      link: "https://www.frotgest.com",
-      style: { backgroundImage: "linear-gradient(to right, #FF2E2E, #991C1C)" },
+      link: "https://yellow-loris-263991.hostingersite.com/",
+      style: { backgroundImage: "linear-gradient(to right, #1B998B, #09332E)" },
     },
     {
       name: headerContent[1].name,
@@ -26,10 +26,10 @@ function FeaturedProjectBox() {
     },
     {
       name: headerContent[2].name,
-      img: "/simon.png",
-      description: headerContent[1].description,
-      link: "https://galinha2.github.io/Estudos-FULLSTACK-WEBDEVELOPMENT-2025/5-JQuery/Project-Simon%20Game/index.html",
-      style: { backgroundImage: "linear-gradient(to right, #1B998B, #09332E)" },
+      img: "/frotgestweb.png",
+      description: headerContent[2].description,
+      link: "https://www.frotgest.com",
+      style: { backgroundImage: "linear-gradient(to right, #FF2E2E, #991C1C)" },
     },
   ];
 

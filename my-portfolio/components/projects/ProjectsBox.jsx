@@ -39,7 +39,7 @@ function ProjectsBox({
           </div>
         </div>
       )}
-      <img className="w-auto max-w-20" src={image} alt="Project Logo" />
+      <img className="w-auto rounded-[20px] max-w-20" src={image} alt="Project Logo" />
       <div>
         <h5 className="text-[var(--text-black)]">{name}</h5>
         <p className="text-[var(--text-gray)]">{description}</p>

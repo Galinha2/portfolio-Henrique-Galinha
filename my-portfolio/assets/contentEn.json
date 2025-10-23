@@ -17,16 +17,16 @@
     "title": "Featured Works",
     "projects": [
       {
-        "name": "Frotgest",
-        "description": "Fleet and equipment management app"
+        "name": "SuperNova 2177",
+        "description": "Social-style web app with posts, comments, likes, and weighted voting, built with FastAPI and Next.js."
       },
       {
         "name": "Frotgest - Administration Panel",
         "description": "Management fleet and monitor equipment's location."
       },
       {
-        "name": "Simon Game",
-        "description": "Memory challenge game where the player repeats color sequences."
+        "name": "Frotgest",
+        "description": "Fleet and equipment management app"
       }
     ]
   },
@@ -35,6 +35,24 @@
     "subtitle": "I love to create things, and I'm always working on something new! You can view some of my favorite projects below.",
     "stackTitle": "Used Stacks:",
     "projects": [
+      {
+        "name": "SuperNova 2177",
+        "description": "Social-style web app inspired by Reddit, with posts, comments, likes/dislikes, weighted voting, and local profile creation. Includes search and filtering features for easy navigation.",
+        "link": "https://yellow-loris-263991.hostingersite.com",
+        "target": "_blank",
+        "image": "/supernovalogo.jpg",
+        "stacks": [
+          "/image 1.png",
+          "/image 5.png",
+          "/image 6.png",
+          "/image 7.png",
+          "/image 8.png",
+          "/image 9.png",
+          "/image 12.png",
+          "/image 13.png",
+          "/image 14.png"
+        ]
+      },
       {
         "name": "Frotgest",
         "description": "Website presenting the Frotgest product, showcasing its features and benefits.",
@@ -148,10 +166,7 @@
         "link": "https://galinha2.github.io/vasto-imperio-lda/pagina-principal/",
         "target": "_blank",
         "image": "/vasto little.png",
-        "stacks": [
-          "/image 8.png",
-          "/image 9.png"
-        ]
+        "stacks": ["/image 8.png", "/image 9.png"]
       }
     ]
   },
@@ -209,16 +224,29 @@
     }
   },
   "websiteDesign": {
+    "supernova": {
+      "title": "SuperNova 2177",
+      "text": "Design and development of a social-style web app inspired by Reddit, featuring posts, comments, likes, dislikes, and weighted voting. Profiles are currently created locally by design, with search and filtering features for easy navigation.",
+      "icon": "/figma.png",
+      "description": "Figma",
+      "made": "Made with:",
+      "images": [
+        "/Home page.jpg",
+        "/Comments.jpg",
+        "/Likes.jpg",
+        "/Settings.jpg",
+        "/Create Proposals.jpg",
+        "/Home page - Phone.jpg",
+        "/Create proposal - Phone.jpg"
+      ]
+    },
     "cv": {
       "title": "PORTFOLIO HENRIQUE",
       "text": "Design of this portfolio website showcasing my projects as a developer. I aimed for a clean, straightforward, and direct design to ensure an easy and intuitive experience for the user.",
       "icon": "/figma.png",
       "description": "Figma",
       "made": "Made with:",
-      "images": [
-        "/cvhome.png",
-        "/cvlogopanel.png"
-      ]
+      "images": ["/cvhome.png", "/cvlogopanel.png"]
     },
     "frotgest": {
       "title": "FROTGEST",
@@ -269,10 +297,7 @@
       "icon": "/figma.png",
       "description": "Figma",
       "made": "Made with:",
-      "images": [
-        "/Home Port.jpg",
-        "/truck.jpg"
-      ]
+      "images": ["/Home Port.jpg", "/truck.jpg"]
     },
     "danau": {
       "title": "DANAU",
@@ -280,9 +305,7 @@
       "icon": "/figma.png",
       "description": "Figma",
       "made": "Made with:",
-      "video": [
-        "/Danau.mp4"
-      ]
+      "video": ["/Danau.mp4"]
     }
   }
 }
